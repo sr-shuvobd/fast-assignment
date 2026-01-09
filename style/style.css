@@ -244,4 +244,31 @@ header .nav-bar{
 
 #footer-continar{
   background-color: #001931;
+  padding: 120px 120px 30px 120px;
+
+}
+.lo-sl{
+  display:flex;
+  justify-content: space-between;
+}
+.lo-sl .sosal{
+  color: white;
+}
+.sosal ul{
+  margin-top: 16px;
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+.sosal ul li a i{
+  color:white;
+}
+.copy-right hr{
+  margin:80px 0px 30px;
+  background-color:#001931;
+}
+.copy-right p{
+  text-align: center;
+  margin-top: 80px;
+  color: white;
 }
