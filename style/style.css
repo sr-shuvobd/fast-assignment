@@ -77,17 +77,17 @@ header .nav-bar{
   box-shadow: 0 0 0 3px rgba(47,158,68,.25);
  }
 
- .nots h1{
+ .test-heder h1{
   font-size: 56px;   
   font-weight: 800;
   color: #FFFFFF;    
   margin: 0;
 }
-.nots-green{
+.text-green{
   color: #30B868;
   display: block; 
 }
-.banner .nots-text{
+.banner .sub-text{
   font-size: 18px;
   color: #FFFFFF;
   margin:16px 295px 0px 295px;
