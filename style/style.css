@@ -206,11 +206,42 @@ header .nav-bar{
 
 .success ul{
   list-style: none;
-  /* display: flex; */
 }
 .success ul li{
   display: flex;
   align-items: center;
   gap:8px;
   margin-bottom: 16px;
+}
+
+/* ......... */
+
+#early-access{
+  margin: 0px 120px 120px 120px;
+}
+
+#early-access .access-container{
+  background-color: #F7F6F2;
+  text-align: center;
+  padding: 80px 40px;
+}
+.text-section h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.access-container P{
+  font-size: 16PX;
+  color: #627382;
+}
+.access-container button{
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+/* ...... */
+
+#footer-continar{
+  background-color: #001931;
 }
