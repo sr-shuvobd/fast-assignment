@@ -104,7 +104,6 @@ header .nav-bar{
 
 /* ........ */
 #notes{
-  height: 40px;
   text-align: center;
 }
 #notes .notes-text{
@@ -118,7 +117,7 @@ header .nav-bar{
 }
 .notes-text h1{
   margin-bottom: 16px;
-  font-size: 48;
+  font-size: 48px;
   font-weight: bold;
   color: #001931;
 }
@@ -160,7 +159,7 @@ header .nav-bar{
   height: 32px;
 }
 .card h3{
-  font-size: 24;
+  font-size: 24px;
   color: #001931;
   margin-bottom: 16px;
 }
@@ -169,4 +168,49 @@ header .nav-bar{
   color: #627382;
   line-height: 20px;
   padding: 24px;
+}
+/* ...... */
+
+#second-brain{
+  margin:120px;
+}
+#second-brain .brain-container{
+  display: flex;
+  gap: 60px;
+}
+.brain-container .image{
+  width: 600px;
+  height: 600px;
+}
+.brain-text{
+  padding: 101px 0px 101px 0px;
+  width: 700px;
+  height: 397px;
+}
+.brain-text h4{
+  font-size: 16px;
+  color:#469165;
+  margin-bottom: 16px;
+}
+.brain-text h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-text p{
+  font-size: 16px;
+  color:#627382;
+  margin-bottom: 40px;
+}
+
+.success ul{
+  list-style: none;
+  /* display: flex; */
+}
+.success ul li{
+  display: flex;
+  align-items: center;
+  gap:8px;
+  margin-bottom: 16px;
 }
